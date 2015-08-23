@@ -1,32 +1,28 @@
-# _Don Schemmel_
+# _Cost to Ship_
 
-##### _{Brief description of application}, {Date of current version}_
+##### _Calculate cost to ship a package, 8/22/15_
 
-#### By _**{List of contributors}**_
+#### By _**Don Schemmel**_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+_Simple app to take a persons package volume and weight and calculate and display
+the cost to ship it_
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+* _Clone the repository_
+* _Run on localhost:8000_
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _PHP_
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_Don Schemmel_**
 
 This software is licensed under the MIT license.
 
