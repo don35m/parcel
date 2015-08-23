@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Shipping Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please enter your parcel's information</h1>
+        <form action="parcel.php">
+            <div class="form-group">
+                <label for="weight">Enter weight in lbs:</label>
+                <input id="weight" name="weight" class="form-control" type="number" step="any">
+
+                <h2>Enter the dimensions</h2>
+
+                <label for="height">Enter height in inches:</label>
+                <input id="height" name="height" class="form-control" type="number" step="any">
+
+                <label for="width">Enter width in inches:</label>
+                <input id="width" name="width" class="form-control" type="number" step="any">
+
+                <label for="length">Enter length in inches:</label>
+                <input id="length" name="length" class="form-control" type="number" step="any">
+            </div>
+            <button type="submit" class="btn-success">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

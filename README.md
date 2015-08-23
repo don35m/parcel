@@ -6,8 +6,8 @@
 
 ## Description
 
-_Simple app to take a persons package volume and weight and calculate and display
-the cost to ship it_
+_Simple app to take a packages size and weight, calculate it, and display the volume
+ along with the cost to ship it_
 
 ## Setup
 

@@ -67,7 +67,28 @@ function shipCost($user_parcel)
 {
     $user_weight = $user_parcel->getWeight();
 
-    return ($user_weight * volume($user_parcel))*.25;
+    return ($user_weight * volume($user_parcel))*.0025;
 }
 
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Parcel Calculator</title>
+</head>
+<body>
+    <?php
+        if((volume($user_parcel) != 0) && (shipCost($user_parcel) != 0))
+        {
+            echo "<h1>The volume of your package is " . number_format(volume($user_parcel)) . " cubic inches.</h1>";
+            echo "<h1>The cost to ship the parcel is $" . number_format(shipCost($user_parcel), 2) . ".</h1>";
+        }
+        else
+        {
+            echo "<h1>Please fill out the form correctly</h1>";
+        }
+    ?>
+</body>
+</html>
